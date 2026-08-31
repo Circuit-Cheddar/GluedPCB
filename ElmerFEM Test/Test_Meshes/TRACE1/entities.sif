@@ -1,0 +1,78 @@
+!------ Skeleton for body section -----
+Body 1
+  Name = Solid1
+End
+
+!------ Skeleton for boundary section -----
+Boundary Condition 1
+  Name = Face10
+End
+
+Boundary Condition 2
+  Name = Face13
+End
+
+Boundary Condition 3
+  Name = Face14
+End
+
+Boundary Condition 4
+  Name = Face15
+End
+
+Boundary Condition 5
+  Name = Face1
+End
+
+Boundary Condition 6
+  Name = Face11
+End
+
+Boundary Condition 7
+  Name = Face12
+End
+
+Boundary Condition 8
+  Name = Face16
+End
+
+Boundary Condition 9
+  Name = Face3
+End
+
+Boundary Condition 10
+  Name = Face8
+End
+
+Boundary Condition 11
+  Name = Face5
+End
+
+Boundary Condition 12
+  Name = Face18
+End
+
+Boundary Condition 13
+  Name = Face2
+End
+
+Boundary Condition 14
+  Name = Face7
+End
+
+Boundary Condition 15
+  Name = Face17
+End
+
+Boundary Condition 16
+  Name = Face9
+End
+
+Boundary Condition 17
+  Name = Face4
+End
+
+Boundary Condition 18
+  Name = Face6
+End
+
