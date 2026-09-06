@@ -1,0 +1,19 @@
+static_current_solver:
+  Equation: "Static Current"
+  Procedure: '"StatCurrentSolve" "StatCurrentSolve"'
+  Variable: "Potential"
+  Variable DOFs: 1
+  Calculate Volume Current: True
+  Calculate Heating: True
+  Exec Solver: "Always"
+  
+  # Linear System Solver Settings
+  Linear System Solver: "Iterative"
+  Linear System Iterative Method: "BiCGStab"
+  Linear System Max Iterations: 1000
+  Linear System Convergence Tolerance: 1.0e-08
+  Linear System Preconditioning: "ILU1"
+  Linear System Residual Output: 1
+  
+  # Convergence Criteria
+  Steady State Convergence Tolerance: 1.0e-05

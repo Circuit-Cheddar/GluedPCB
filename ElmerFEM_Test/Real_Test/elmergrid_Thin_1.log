@@ -1,0 +1,91 @@
+==================================================================
+ElmerGrid mesh conversion and manipulation utility, Welcome!
+Version: 26.2-devel (Rev: Release, Compiled: 2026-06-01)
+This program is free software licensed under GPL
+==================================================================
+Elmergrid reading in-line arguments
+Lower dimensional boundaries will be removed
+Materials and boundaries will be renumbered
+Nodes that do not appear in any element will be removed
+Output will be saved to file Thin_1.
+
+Elmergrid loading data:
+-----------------------
+Reading mesh from universal mesh file Thin_1.unv.
+First round for allocating data
+Units dataset content is currently omitted!
+Part UID = 1
+Part name = SMESH_Mesh
+Coord system name = Global
+There are 7422 nodes in the mesh
+Element type range in mesh [202,504]
+Allocating mesh with 7422 nodes and 37771 4-node elements in 3 dims.
+Physical index interval is [2,2]
+Group index interval is [1,2]
+Second round for reading data
+Reading Coordinate system information
+Reading node coordinates
+Reading element topologies
+Reading element groups in mode 2467
+Reading 1:th group with index 1 with 792 entities: Input_2
+Element type range in group is [303 303]
+Reading 2:th group with index 2 with 792 entities: Output_2
+Element type range in group is [303 303]
+Group given for 1584 elements out of 37771
+Physical index and group index collide: 2
+Replacing physical index 2 with free index 3
+Using mapped physical entity index for 36187 elements
+Entity 1 (Input_2) count is 792
+Entity 2 (Output_2) count is 792
+Entity 3 count is 36187
+Moving bulk elements to boundary elements
+Moving boundarynames together with elements
+Leading bulk elementtype is 504
+Trailing bulk elementtype is 202
+Checking that different dimensions have unique boundary tags!
+Tag interval for boundaries: [1 3]
+We have an overlap, applying offsets!
+Replacing tag in 1-dim 3 -> 4
+Renumbered tags for boundary elements!
+There are 17110 (out of 37771) lower dimensional elements.
+Node 421 belongs to maximum of 34 elements
+Found correctly 17110 side elements.
+Parent elements were reordered up to index 20661.
+Moved 20661 elements (out of 37771) to new positions
+The Universal mesh was loaded from file Thin_1.unv.
+
+Elmergrid creating and manipulating meshes:
+-------------------------------------------
+Removing lower dimensional boundaries
+Maximum elementtype is 504 and dimension 3
+Minimum elementtype is 504 and dimension 3
+Removed 2292 (out of 17110) less than 2D boundary elements
+All 7422 nodes were used by the mesh elements
+Initial boundary interval [1,3]
+BC index unaltered 1 in 792 2D elements of Input_2
+BC index unaltered 2 in 792 2D elements of Output_2
+BC index unaltered 3 in 13234 2D elements of bnry3
+Numbering of boundary types is already ok
+Initial body interval [3,3]
+body index changed 3 -> 1 in 20661 elements
+Mapping material types from [3 3] to [1 1]
+Mapping entity names to follow material indexes
+Renumbering of material types completed!
+Bounding box of all nodes in mesh:
+X:[0.09398,0.135315] Y:[-0.07874,-0.06858] Z:[-4e-05,0.0015562]
+Calculate Mesh Pieces in mesh:
+There is a single piece in the mesh, so the mesh is conforming.
+
+Elmergrid saving data with method 2:
+-------------------------------------
+Saving mesh in ElmerSolver format to directory Thin_1.
+Reusing an existing directory
+Saving 7422 coordinates to mesh.nodes.
+Saving 20661 element topologies to mesh.elements.
+Saving boundary elements to mesh.boundary.
+Saving header info to mesh.header.
+Saving names info to mesh.names.
+Saving entities info to entities.sif.
+
+Thank you for using Elmergrid!
+Send bug reports and feature wishes to elmeradm@csc.fi

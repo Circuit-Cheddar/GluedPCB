@@ -1,0 +1,58 @@
+Header
+  CHECK KEYWORDS "Warn"
+  Mesh DB "." "."
+End
+
+Simulation
+End
+
+Constants
+  Stefan Boltzmann = 5.6704e-08
+End
+
+! Static_Current
+Equation 1
+  Active Solvers(1) = 1   ! StaticCurrent, 
+End
+
+
+! StaticCurrent
+Solver 1
+  Equation = Static Current
+  Procedure = "StatCurrentSolve" "StatCurrentSolve"
+  Variable = Potential
+  Variable DOFs = 1
+  Calculate Volume Current = True
+  Calculate Heating = True
+  Exec Solver = Always
+  Linear System Solver = Iterative
+  Linear System Iterative Method = BiCGStab
+  Linear System Max Iterations = 1000
+  Linear System Convergence Tolerance = 1e-08
+  Linear System Preconditioning = ILU1
+  Linear System Residual Output = 1
+  Steady State Convergence Tolerance = 1e-05
+End
+
+
+! Copper Foil
+Material 1
+  Density = 1.1885
+  Heat Capacity = 1006.4
+  Heat Conductivity = 0.025873
+  Electric Conductivity = 47000000.0
+End
+
+
+! MainBody
+Body 1
+  Target Bodies(1) = 1
+  name = Simulation Trace
+  material = 1
+  equation = 1
+End
+
+
+
+
+

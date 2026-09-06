@@ -1,0 +1,18 @@
+!------ Skeleton for body section -----
+Body 1
+  Name = Input
+End
+
+Body 2
+  Name = Output
+End
+
+Body 3
+  Name = body3
+End
+
+!------ Skeleton for boundary section -----
+Boundary Condition 1
+  Name = bnry3
+End
+

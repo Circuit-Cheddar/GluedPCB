@@ -1,0 +1,35 @@
+Cmp-Mod V01 Created by PcbNew   date = 2026-09-06T16:16:29
+
+BeginCmp
+TimeStamp = 0e9b4857-4128-4d63-9b90-954064d13a80
+Path = /be5da429-02e5-435a-b28c-bb4371c0f388
+Reference = J2;
+ValeurCmp = Conn_01x01;
+IdModule  = Connector:Banana_Jack_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 6b9f8852-f28b-49f2-ab80-0a77e9c8072e
+Path = /807274ff-091d-47e6-b6b0-17919041f664
+Reference = J1;
+ValeurCmp = Conn_01x01;
+IdModule  = Connector:Banana_Jack_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 7ba0b41f-c48a-4d9a-9c2c-43b4227781ff
+Path = /4981161c-e89d-4556-808e-23238923dcfa
+Reference = J4;
+ValeurCmp = Conn_01x01;
+IdModule  = Connector:Banana_Jack_1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = b2ab804f-e9d5-4b31-b0c5-b206cac18484
+Path = /f16e4593-c124-4824-9b50-0c334814d76e
+Reference = J3;
+ValeurCmp = Conn_01x01;
+IdModule  = Connector:Banana_Jack_1Pin;
+EndCmp
+
+EndListe
