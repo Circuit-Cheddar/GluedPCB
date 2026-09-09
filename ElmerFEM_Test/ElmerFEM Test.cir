@@ -1,0 +1,9 @@
+.title KiCad schematic
+IJ4 /Thin NC-J4-0 DC 5 
+IJ3 /Thick NC-J3-0 DC -4 
+VJ5 /Test /Test DC 5 
+VJ1 /Thick NC-J1-0 DC 5 
+J2 /Thin .subckt Apple 1
+V1 1 0 DC 5V
+.ends Apple
+.end

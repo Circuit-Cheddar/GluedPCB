@@ -10,3 +10,13 @@ Currently KiCad can export a step file of the individual nets. This can then be 
 
 # Phase 1 - Python Mesher
 I guess we are starting here. I need to take a model and break it up into the the simpliest form of tetrahedrons. I probably want a visualizer? Or maybe I should do this with the simpliest way and just import brep files (I believe these to be the easiest format; I just googled it and it looks like step is a wrapper for BRep so lets just use STEP files). From the STEP File I want to create the simpliest tetrahedrons. For any curved surfaces, I'll have to specify a segment density? (Maybe specify an absolute deviation metric, in Area per length) to keep things simple but accurate. The native way of handling that is gmsh. I don't know how I'm going to futhur refine a gmsh file. It feels like that isn't in the spirit of what I'm trying todo.
+
+# Mind Dump
+Holy Shit we have come really far in this process
+
+I'm not taking any hyperlynx data yet.
+
+Things I have accomplished
+- Partway through the scripting process for Salome to generate the mesh
+I have been able to import the step file, break it into its individual solids
+From there, if I have the layer and the x and y coords for the target pad, I can sort through the faces and add the appropriate one to the group and have it added with the appropriate name

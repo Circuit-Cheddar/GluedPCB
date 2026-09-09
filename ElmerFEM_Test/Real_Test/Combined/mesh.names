@@ -1,6 +1,0 @@
-! ----- names for bodies -----
-$ body1 = 1
-! ----- names for boundaries -----
-$ Input_2 = 1
-$ Output_2 = 2
-$ bnry3 = 3

@@ -1,0 +1,25 @@
+{
+    "import_step": true,
+    "explode_step": true,
+    "expected_solids": 0,
+    "exploded_solids_names": [
+        "Thin",
+        "Thick"
+    ],
+    "assign_face_groups": true,
+    "run_mesher": false,
+    "mesher_settings": false,
+    "target_step": "C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/ElmerFEM_Test/Auto_CLI_Export.step",
+    "face_group_settings": "C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/Python_Automation/kicad_face_group.json",
+    "surface_information": "C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/Python_Automation/kicad_face_information.json",
+    "settings_file_path": "C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/Python_Automation/mesher_settings.json",
+    "generation_dir": "C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/Python_Automation",
+    "salome_dir": "C:/SALOME-9.16.0/W64/Python",
+    "args": [
+        "C:/SALOME-9.16.0/W64/Python/python3.exe",
+        "C:/SALOME-9.16.0/salome",
+        "-t",
+        "C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/Python_Automation/Salome_automesher.py",
+        "args:"
+    ]
+}

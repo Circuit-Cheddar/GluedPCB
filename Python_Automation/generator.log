@@ -1,33 +1,21 @@
+Arguments: ['C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/Python_Automation/mesher_settings.json']
 Hello from Salome
-Setting Up Geometry
-Importing Step File
-Exploding Step File
-Starting Mesher
+Starting Work on 
+BFGS update error2
+Solid_1
+J1.1 face grounp found at face 8 with a surface area of 5.2325660379844515e-05
+J3.1 face grounp found at face 13 with a surface area of 5.2325660379844475e-05
+Starting Work on 
 BFGS update error2
 BFGS update error2
 BFGS update error2
 BFGS update error2
 BFGS update error2
 BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
-BFGS update error2
+Solid_2
+J4.1 face grounp found at face 8 with a surface area of 5.2325660379844515e-05
+J2.1 face grounp found at face 13 with a surface area of 5.2325660379844475e-05
+Starting Work on 
+Solid_3
+J5.2 face grounp found at face 35 with a surface area of 5.417283832033896e-06
+J5.1 face grounp found at face 37 with a surface area of 7.348700361456861e-06

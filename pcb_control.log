@@ -1,0 +1,21 @@
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+[+] Loading board: C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/ElmerFEM_Test/ElmerFEM Test.kicad_pcb
+[+] Found 4 footprints on the board.
+ - Reference: J2, Value: Conn_01x01
+ - Reference: J1, Value: Conn_01x01
+ - Reference: J4, Value: Conn_01x01
+ - Reference: J3, Value: Conn_01x01
+[-] Error: No active board found. Open a PCB design first.
+what is this

@@ -1,0 +1,17 @@
+{
+    "Units": "m",
+    "Size_Dict": {
+        "Solid_1": {
+            "J1.1": 5.2325660379844515e-05,
+            "J3.1": 5.2325660379844475e-05
+        },
+        "Solid_2": {
+            "J4.1": 5.2325660379844515e-05,
+            "J2.1": 5.2325660379844475e-05
+        }
+    },
+    "Unv_Files": [
+        "C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/ElmerFEM_Test/Solid_1.unv",
+        "C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/ElmerFEM_Test/Solid_2.unv"
+    ]
+}

@@ -1,0 +1,68 @@
+ELMER SOLVER (v 26.2) STARTED AT: 2026/09/08 21:54:24
+ParCommInit: Initialize #PEs: 1
+MAIN: 
+MAIN: =============================================================
+MAIN: ElmerSolver finite element software, Welcome!
+MAIN: This program is free software licensed under (L)GPL
+MAIN: Copyright 1st April 1995 - , CSC - IT Center for Science Ltd.
+MAIN: Webpage http://www.csc.fi/elmer, Email elmeradm@csc.fi
+MAIN: Version: 26.2-devel (Rev: Release, Compiled: 2026-06-01)
+MAIN:  Running one task without MPI parallelization.
+MAIN:  Running with just one thread per task.
+MAIN:  Lua interpreter linked in.
+MAIN: =============================================================
+MAIN: 
+MAIN: 
+MAIN: -------------------------------------
+MAIN: Reading Model: C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/ElmerFEM_Test/Solid_3.sif
+LoadInputFile: Scanning input file: C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/ElmerFEM_Test/Solid_3.sif
+LoadInputFile: Scanning only size info
+LoadInputFile: First time visiting
+LoadInputFile: Reading base load of sif file
+LoadInputFile: Loading input file: C:/Users/user/Documents/GitHub/KiCad-ElmerFEM_Test/ElmerFEM_Test/Solid_3.sif
+LoadInputFile: Reading base load of sif file
+LoadInputFile: Number of BCs: 2
+LoadInputFile: Number of Body Forces: 0
+LoadInputFile: Number of Initial Conditions: 0
+LoadInputFile: Number of Materials: 1
+LoadInputFile: Number of Equations: 1
+LoadInputFile: Number of Solvers: 1
+LoadInputFile: Number of Bodies: 1
+ElmerMeshReader: Base mesh name: ./Solid_3
+PrepareMesh: Preparing mesh for the future
+LoadMesh: Elapsed REAL time:     0.1130 (s)
+MAIN: -------------------------------------
+AddVtuOutputSolverHack: Adding ResultOutputSolver to write VTU output in file: solid_3
+OptimizeBandwidth: Initial bandwidth for static current conduction: 9642
+OptimizeBandwidth: Optimized bandwidth for static current conduction: 227
+MAIN: Number of timesteps to be saved: 1
+MAIN: 
+MAIN: -------------------------------------
+MAIN:  Steady state iteration:            1
+MAIN: -------------------------------------
+MAIN: 
+StatCurrentSolve: -------------------------------------
+StatCurrentSolve: STAT CURRENT SOLVER:
+StatCurrentSolve: -------------------------------------
+StatCurrentSolve: Static current iteration: 1
+StatCurrentSolve:  Assembly (s)          :  0.15199999999999997
+ComputeChange: NS (ITER=1) (NRM,RELC): (  3.9484482      2.0000000     ) :: static current conduction
+StatCurrentSolve:  Solve (s)             :   4.1000000000000036E-002
+StatCurrentSolve:  Total Heating Power   :  0.21543102399395309
+StatCurrentSolve: Static current iteration: 2
+StatCurrentSolve:  Assembly (s)          :  0.10999999999999999
+ComputeChange: NS (ITER=2) (NRM,RELC): (  3.9484482      0.0000000     ) :: static current conduction
+StatCurrentSolve:  Solve (s)             :   3.2000000000000028E-002
+StatCurrentSolve:  Total Heating Power   :  0.21543102399395309
+ComputeChange: SS (ITER=1) (NRM,RELC): (  3.9484482      2.0000000     ) :: static current conduction
+ResultOutputSolver: -------------------------------------
+ResultOutputSolver: Saving with prefix: solid_3
+CreateListForSaving: Field Variables for Saving
+ResultOutputSolver: Saving in unstructured VTK XML (.vtu) format
+VtuOutputSolver: Saving results in VTK XML format with prefix: solid_3
+VtuOutputSolver: Saving number of partitions: 1
+ResultOutputSolver: -------------------------------------
+MAIN: *** Elmer Solver: ALL DONE ***
+MAIN: The end
+SOLVER TOTAL TIME(CPU,REAL):         1.13        1.13
+ELMER SOLVER FINISHED AT: 2026/09/08 21:54:25

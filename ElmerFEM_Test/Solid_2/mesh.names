@@ -1,0 +1,6 @@
+! ----- names for bodies -----
+$ body1 = 1
+! ----- names for boundaries -----
+$ J4.1 = 1
+$ J2.1 = 2
+$ bnry3 = 3
